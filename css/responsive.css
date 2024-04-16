@@ -1,0 +1,151 @@
+@media (max-width: 1228px) {}
+
+@media (max-width: 1141px) {}
+
+
+@media (max-width: 1172px) {}
+
+@media (max-width: 1124px) {}
+
+@media (max-width: 1024px) {}
+
+@media (max-width: 992px) {
+  .menu {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .main_nav {
+    position: fixed;
+    flex-direction: column;
+    display: flex;
+    background: #03002c;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    right: -300px;
+    transition: .3s;
+    align-items: center;
+    justify-content: center;
+    z-index: 555;
+  }
+
+  .main_nav ul.active {
+    right: 0;
+  }
+
+  .main_nav ul {
+    flex-direction: column;
+  }
+
+  .main_nav ul li a {
+    color: white;
+  }
+
+  nav.main_nav.active {
+    right: 0;
+  }
+
+  body.active {
+    overflow: hidden;
+  }
+
+  .hero_bg_img {
+    width: 350px;
+    height: 170px;
+    left: 100px;
+  }
+
+  .hero_women_img {
+    height: 260px;
+  }
+
+  .hero_img {
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .hero_content {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero_content.hero_form_wrapper {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .about_img {
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  .why_choose_us {
+    background-image: none;
+}
+footer .row {
+  gap: 40px;
+}
+.faq_result_main{
+  border-radius: 0 0 10px 10px;
+}
+.faq_option_main{
+  border-radius: 10px 10px 0 0 ;
+  border-right: 1px;
+}
+}
+
+@media (max-width: 950px) {}
+
+@media (max-width: 820px) {}
+
+@media (max-width: 792px) {
+  .hero_content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero_img {
+    display: none;
+  }
+
+  .hero_img {}
+}
+
+
+@media (max-width: 768px) {}
+
+@media (max-width: 666px) {}
+
+@media (max-width: 640px) {
+  .input_field {
+    flex-direction: column;
+  }
+  .ready_to_start_content {
+    flex-direction: column;
+}
+.how_it_works_img .img_box {
+  display: none;
+}
+}
+
+
+
+@media (max-width: 616px) {}
+
+@media (max-width: 597px) {}
+
+@media (max-width: 535px) {}
+
+
+
+@media (max-width: 571px) {}
+
+@media (max-width: 510px) {}
+
+@media (max-width: 470px) {}
+
+@media (max-width: 466px) {}
