@@ -93,9 +93,21 @@ footer .row {
   border-radius: 0 0 10px 10px;
 }
 .faq_option_main{
-  border-radius: 10px 10px 0 0 ;
-  border-right: 1px;
+  border-radius: 10px 10px 0 0;
+  border-right: 1px solid #E7E9ED;
 }
+.faq_option ul li i{
+  display: none;
+}
+#customDropdown ,
+.main_nav ul.navbar_items li a  {
+  color: white;
+}
+.hero_form_main{
+  margin-top: 25px;
+  height: auto;
+}
+.about_section_1_content_wrapper{} 
 }
 
 @media (max-width: 950px) {}
@@ -131,7 +143,6 @@ footer .row {
   display: none;
 }
 }
-
 
 
 @media (max-width: 616px) {}

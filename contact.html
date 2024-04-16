@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logoispum</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="header_wrapper">
+                        <div class="logo_main">
+                            <a href="index.html" class="logo">
+                                <img src="images/logo.svg" alt="">
+                            </a>
+                        </div>
+                        <nav class="main_nav">
+                            <ul class="navbar_items">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="about_us.html" class="active">About Us</a></li>
+                                <div class="dropdown" id="customDropdown">
+                                    <span class="dropdown-toggle" id="dropdownMenuButton1" aria-expanded="false">
+                                        Services
+                                    </span>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </div>
+
+                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                            <button class="theme_btn"><span>Get Start</span></button>
+                        </nav>
+                        <button class="menu"
+                            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+                            aria-label="Main Menu" aria-expanded="true">
+                            <svg width="25" height="25" viewBox="0 0 100 100">
+                                <path class="line line1"
+                                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+                                </path>
+                                <path class="line line2" d="M 20,50 H 80"></path>
+                                <path class="line line3"
+                                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+                                </path>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="page_hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div
+                        class="page_hero_content d-flex align-items-center justify-content-center flex-column text-center ">
+                        <div class="breadcrumb">
+                            <a href="#">Home</a>
+                            <span><i class="fas fa-long-arrow-alt-right"></i></span>
+                            <a href="#" class="active">Contac us</a>
+
+                        </div>
+                        <h4 class="page_hero_heading">Contact Us</h4>
+                        <p>arcu donec dignissim. A semper lectus dignissim risus nulla posuere. Sem lorem tempor mauris
+                            senectus sed interdum sapien consectetur.</p>
+                        <div class="hero_btn_main">
+                            <button class="theme_btn theme_btn_secondary"><span>Get Start</span></button>
+                            <button class="theme_btn theme_btn_transparent">
+                                <span>
+                                    Learn More
+                                </span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="about_form contact_us_form ">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class=" col-xl-6 col-lg-6 col-md-12 ">
+                    <div class="about_form_content">
+                        <h4 class="webkit webkit_2">Providing The Best
+                            Writing Service for You</h4>
+                        <p class="webkit webkit_3">
+                            Lorem ipsum dolor sit amet consectetur. Et eget nec feugiat laoreet pellentesque. Enim ut et
+                            in
+                            semper tristique.
+                        </p>
+                        <div class="img_box"><img src="images/about_img_2.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="  col-xl-6 col-lg-6 col-md-12 mt-sm-2">
+                    <div class="hero_form_main about_form_main ">
+                        <h4>Get Free quote for the writing services</h4>
+                        <form action="" class="hero_form">
+                            <div class="input_field">
+                                <div class="form_field">
+                                    <label for="">Full Name*</label>
+                                    <input type="text" placeholder="Abdul Hadi">
+                                </div>
+                                <div class="form_field">
+                                    <label for="email">Email*</label>
+                                    <input type="email" placeholder="hadi2232@gmail.com" name="mail">
+                                </div>
+                            </div>
+                            <div class="input_field">
+                                <div class="form_field">
+                                    <label for="">Phone Number*</label>
+                                    <input type="text" placeholder="Abdul Hadi">
+                                </div>
+                                <div class="form_field">
+                                    <label for="email">Service*</label>
+                                    <input type="email" placeholder="hadi2232@gmail.com" name="mail">
+                                </div>
+                            </div>
+                            <button type="submit" class="theme_btn theme_btn_primary"><span>Submit</span></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-12 justify-content-center   mt-4 about_form_contact_icons ">
+                    <div class="about_section_1_contact_main p-2 ">
+                        <div class="about_section_1_contact_container">
+                            <div class="icon"><i class="fas fa-phone"></i></div>
+                            <div class="about_section_1_content">
+                                <span>Call Us Here</span>
+                                <p>+44-203-287-0140</p>
+                            </div>
+                        </div>
+                        <div class="about_section_1_contact_container">
+                            <div class="icon"><i class="fas fa-envelope"></i></div>
+                            <div class="about_section_1_content">
+                                <span>Email Us Here</span>
+                                <p>loremipsum@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer_logo_main">
+                        <a href="index.html" class="logo">
+                            <img src="images/Logo RealEstate.svg" alt="">
+                        </a>
+                        <p>arcu donec dignissim. A semper lectus dignissim risus nulla posuere. Sem lorem tempor mauris
+                            senectus sed
+                            interdum sapien consectetur a. Malesuada </p>
+                        <div class="social_media">
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+
+                            <a href="#">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer_list">
+                        <span>Company</span>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer_list">
+                        <span>Services</span>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="footer_list">
+                        <span>Company</span>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Press</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/simpleParallax.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery-3.6.3.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

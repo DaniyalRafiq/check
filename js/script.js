@@ -36,5 +36,11 @@ $(document).ready(function () {
     // Update the content in faq_result_main .faq_result
     $('.faq_result_main .faq_result').html(newContent);
   });
+    // Hover effect to toggle dropdown menu
+    $('#customDropdown').hover(function() {
+        $(this).find('.dropdown-menu').stop(true, true).slideDown('fast');
+    }, function() {
+        $(this).find('.dropdown-menu').stop(true, true).slideUp('fast');
+    });
 
 });

@@ -21,14 +21,24 @@
           <div class="header_wrapper">
             <div class="logo_main">
               <a href="index.html" class="logo">
-                <img src="images/logo.svg" alt="" />
+                <img src="images/logo.svg" alt="">
               </a>
             </div>
             <nav class="main_nav">
-              <ul>
-                <li><a href="index.html" class="active" >Home</a></li>
-                <li><a href="about_us.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
+              <ul class="navbar_items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about_us.html" class="active">About Us</a></li>
+                <div class="dropdown" id="customDropdown">
+                  <span class="dropdown-toggle" id="dropdownMenuButton1" aria-expanded="false">
+                    Services
+                  </span>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </div>
+
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="blog.html">Blog</a></li>
               </ul>
@@ -95,7 +105,7 @@
                     <input type="email" placeholder="hadi2232@gmail.com" name="mail" />
                   </div>
                 </div>
-                 <button type="submit" class="theme_btn theme_btn_primary"><span>Submit</span></button>
+                <button type="submit" class="theme_btn theme_btn_primary"><span>Submit</span></button>
               </form>
             </div>
             <div class="hero_bottom_content">
@@ -106,7 +116,7 @@
                 dignissim.
               </p>
               <div class="hero_btn_main">
-                 <button class="theme_btn"><span>Get Start</span></button>
+                <button class="theme_btn"><span>Get Start</span></button>
                 <button class="theme_btn theme_btn_transparent">
                   <span>
                     Learn More
@@ -194,7 +204,7 @@
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </a>
-                         <a href="#" class="service_card">
+              <a href="#" class="service_card">
                 <div class="service_card_content">
                   <h4>Assignment Writing</h4>
                   <p>Learn More</p>
@@ -203,7 +213,7 @@
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </a>
-                         <a href="#" class="service_card">
+              <a href="#" class="service_card">
                 <div class="service_card_content">
                   <h4>Assignment Writing</h4>
                   <p>Learn More</p>
@@ -212,7 +222,7 @@
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </a>
-                         <a href="#" class="service_card">
+              <a href="#" class="service_card">
                 <div class="service_card_content">
                   <h4>Assignment Writing</h4>
                   <p>Learn More</p>
@@ -221,7 +231,7 @@
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </a>
-                         <a href="#" class="service_card">
+              <a href="#" class="service_card">
                 <div class="service_card_content">
                   <h4>Assignment Writing</h4>
                   <p>Learn More</p>
@@ -230,7 +240,7 @@
                   <i class="fa-solid fa-arrow-right"></i>
                 </div>
               </a>
-                         <a href="#" class="service_card">
+              <a href="#" class="service_card">
                 <div class="service_card_content">
                   <h4>Assignment Writing</h4>
                   <p>Learn More</p>
@@ -361,7 +371,7 @@
         </div>
         <div class="col-lg-6">
           <div class="how_it_works_img">
-            <div class="img_box" id="hoveredImage" >
+            <div class="img_box" id="hoveredImage">
               <img src="images/how_it_works.png" alt="">
             </div>
           </div>
@@ -587,7 +597,7 @@
           <div class="ready_to_start_content">
             <h4 class="text-center">ready to get start ?</h4>
             <button class="theme_btn">
-              <span>   get a free quote</span>
+              <span> get a free quote</span>
             </button>
           </div>
         </div>
